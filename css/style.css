@@ -21,7 +21,7 @@
 }
 /* ------------- Search Box Area ------------ */
 .search-box{
-    margin:50px 0;
+    margin:50px 0 100px 0;
     background-color: lightgrey;
     border-radius:20px;
 }
@@ -55,13 +55,24 @@
     background-color: #87beeb;
 }
 #bookQuantity{
-    background-color: rgb(239, 94, 94);
+    background-color: #ef5e5e;
     color: #fff;
     font-weight: bold;
     padding: 5px 8px;
-    border-radius: 20px;
+    border-radius: 25px;
+}
+#searchResult{
+    background-color: #d72626;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 8px;
+    border-radius: 25px;
 }
 small{
     font-size:12px;
 }
 
+/* ----------  Book Cart Area ---------- */
+img{
+    height:300px;
+}
