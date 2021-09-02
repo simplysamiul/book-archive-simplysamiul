@@ -1,0 +1,58 @@
+/* ------------- Carousel Area ------------ */
+.banner img{
+    height:500px;
+}
+.banner-space{
+    padding: 20px 100px 20px 120px;
+    font-size: 30px;
+    
+}
+.banner-title{
+    font-family: 'Besley', serif;
+}
+.first-slide{
+    background-color: #f69082;
+}
+.second-slide{
+    background-color:#abe3bb;
+}
+.third-slide{
+    background-color: #a1cef2;
+}
+/* ------------- Search Box Area ------------ */
+.search-box{
+    margin:50px 0;
+    background-color: lightgrey;
+    border-radius:20px;
+}
+.search-box h1{
+    font-family: 'Besley', serif;
+    padding: 30px 0;
+    font-family: 700;
+}
+.search-field{
+    padding: 20px 0;
+}
+.search-field input{
+    width: 50%;
+    border-radius: 20px;
+    margin-bottom:20px;
+}
+.search-field button{
+    background-color: #a1cef2;
+    border: none;
+    padding:5px 12px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.search-field button span{
+    border-right: 1px solid #fff;
+    letter-spacing: 0.2em;
+    padding-right:5px;
+    font-weight: 500;
+}
+.search-field button:hover{
+    background-color: #87beeb;
+}
+
+
