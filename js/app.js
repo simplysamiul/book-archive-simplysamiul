@@ -13,9 +13,9 @@ const bookCart = (books) => {
     const booksContainer = document.getElementById("booksCart");
     const bookSlice = books.slice(0,15);
     document.getElementById("searchResult").innerText = bookSlice.length;
+    // ------ Clear Previous data -----
     booksContainer.textContent = '';
     bookSlice.forEach((book) =>{
-      console.log(book);
         const div = document.createElement("div");
         div.classList.add("col")
         div.innerHTML = `

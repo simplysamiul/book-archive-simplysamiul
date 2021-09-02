@@ -76,3 +76,6 @@ small{
 img{
     height:300px;
 }
+#error-mesage{
+    display:none;
+}
