@@ -54,5 +54,14 @@
 .search-field button:hover{
     background-color: #87beeb;
 }
-
+#bookQuantity{
+    background-color: rgb(239, 94, 94);
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 8px;
+    border-radius: 20px;
+}
+small{
+    font-size:12px;
+}
 
